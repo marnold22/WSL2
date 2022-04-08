@@ -1,4 +1,4 @@
-{
+[
     {
         "name": "Abernathy",
         "black": "#000000",
@@ -214,4 +214,4 @@
         "selectionBackground": "#b5d5ff",
         "cursorColor": "#bbbbbb"
       }
-}
+]
