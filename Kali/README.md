@@ -1,4 +1,4 @@
-# Specifications & Other Notes
+# Install Notes
 
 You have to install Kali-linux from the microsoft store otherwise the gpg key was missing and could not restore through apt-key
 
@@ -14,3 +14,8 @@ https://www.kali.org/docs/general-use/metapackages/
 I chose this meta package:
 
 > sudo apt install kali-linux-core
+
+# Specifications & Other Notes
+Need to add a set user id (stick bit) to the ping function
+
+> sudo chmod +s /bin/ping
