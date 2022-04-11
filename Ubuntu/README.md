@@ -67,7 +67,7 @@ mysql> CREATE USER 'marnold'@'localhost' IDENTIFIED BY 'password';
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'marnold'@'localhost' WITH GRANT OPTION;
 mysql> exit
 
-## COMMANDS
+## Original Commands
 > sudo service apache2 start
 > sudo service mysql start
 
@@ -76,3 +76,10 @@ mysql> exit
 
 > sudo service apache2 stop
 > sudo service mysql stop
+
+## Custom Commands
+> touch .bash_aliases
+> echo 'alias lampstatus="sudo service apache2 status ; sudo service mysql status"' >> .bash_aliases
+> echo 'alias lampstart="sudo service mysql start ; sudo service apache2 start"' >> .bash_aliases
+> echo 'alias lampstop="sudo service mysql stop ; sudo service apache2 stop"' >> .bash_aliases
+> echo 'alias lamprestart="lampstop ; lampstart"' >> .bash_aliases
