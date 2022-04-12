@@ -35,7 +35,7 @@ Change the hostname from `marnold@DESKTOP-QHEH3D4` to `UBUNTU` or whatever other
 
     ```
     [network]
-    hostname = UBUNTU
+    hostname = KALI
     generateHosts = false
     ```
 
@@ -48,5 +48,5 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
     ```
 
     ```
-    127.0.1.1       UBUNTU.localdomain     UBUNTU
+    127.0.1.1       KALI.localdomain     KALI
     ```
