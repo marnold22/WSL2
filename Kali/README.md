@@ -51,3 +51,27 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
     ```
     127.0.1.1       KALI.localdomain     KALI
     ```
+
+## ZSH - Installation
+
+1. Download ZSH
+    > sudo apt install zsh
+
+2. Set ZSH as defualt login shell
+    > sudo usermod -s /usr/bin/zsh $(whoami)
+
+3. Installing Oh-My-ZSH
+    > sh -c "$(curl -fsSL <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
+
+4. Install Powerline Fonts
+    > sudo apt install fonts-powerline
+
+5. Install Powerlevel10K Theme
+    > git clone --depth=1 <https://github.com/romkatv/powerlevel10k.git> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+6. Edit .zshrc file to apply theme
+    > code ~/.zshrc
+    Paste in `ZSH_THEME="powerlevel10k/powerlevel10k"`
+
+7. Apply Changes
+    > source ~/.zshrc
