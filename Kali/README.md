@@ -11,6 +11,8 @@
 
 4. Install Win-KeX (GUI)
     > sudo apt install kali-win-kex
+    To start Win-Kex run the following command:
+    > kex --win -s
 
 5. Install tools / metapackages
     > sudo apt install kali-linux-everything
