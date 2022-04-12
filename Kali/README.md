@@ -15,7 +15,8 @@
     > kex --win -s
 
 5. Install tools / metapackages
-    > sudo apt install kali-linux-everything
+    > sudo apt install kali-linux-core
+    > sudo apt install kali-linux-default
 
 6. Hide Launch Message
     > touch ~/.hushlogin
