@@ -196,50 +196,46 @@
     "defaultProfile": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
     "profiles": 
     {
-        "defaults": {},
+        "defaults": {
+            "useAcrylic": true,
+            "opacity": 0.85,
+            "fontFace": "Cascadia Code PL"
+        },
         "list": 
         [
             {
                 "colorScheme": "Abernathy",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{GUID-HERE}",
+                "guid": "{GUID_HERE}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "opacity": 85,
-                "useAcrylic": true
+                "name": "Windows PowerShell"
             },
             {
                 "colorScheme": "Abernathy",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{GUID-HERE}",
+                "guid": "{GUID_HERE}",
                 "hidden": false,
-                "name": "Command Prompt",
-                "opacity": 85,
-                "useAcrylic": true
+                "name": "Command Prompt"
             },
             {
-                "guid": "{GUID-HERE}",
+                "guid": "{GUID_HERE}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
                 "colorScheme": "Ubuntu",
-                "guid": "{GUID-HERE}",
+                "guid": "{GUID_HERE}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "opacity": 85,
-                "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "colorScheme": "Abernathy",
-                "guid": "{GUID-HERE}",
+                "guid": "{GUID_HERE}",
                 "hidden": false,
                 "name": "kali-linux",
-                "opacity": 85,
-                "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
