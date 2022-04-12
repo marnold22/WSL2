@@ -1,4 +1,6 @@
-# Specifications & Other Notes
+# UBUNTU
+
+## Specifications & Other Notes
 
 1. Change the hostname from `marnold@DESKTOP-QHEH3D4` to `UBUNTU` or whatever other hostname you want
 > hostname
