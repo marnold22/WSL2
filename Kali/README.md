@@ -1,20 +1,22 @@
-# Install Notes
+# KALI-LINUX
 
-You have to install Kali-linux from the microsoft store otherwise the gpg key was missing and could not restore through apt-key
+## Install Steps
 
-`ERROR: Invalid signature for Kali Linux repositories : "The following signatures were invalid: EXPKEYSIG ED444FF07D8D0BF6 Kali Linux Repository"`
+1. Download Kali-Linux from Microsoft Store
 
-This is a minimal installation of Kali Linux, you likely
-want to install supplementary tools. Learn how:
-<https://www.kali.org/docs/troubleshooting/common-minimum-setup/>
-<https://www.kali.org/docs/general-use/metapackages/>
+2. Launch Kali-linux this will run the install and prompt for username & password
 
-I chose this meta package:
+3. Update system
+    > sudo apt update && sudo apt upgrade
 
-> sudo apt install kali-linux-core
+4. Install Win-KeX (GUI)
+    > sudo apt install kali-win-kex
 
-Run: “touch ~/.hushlogin” to hide this message (on launch)
-> touch ~/.hushlogin
+5. Install tools / metapackages
+    > sudo apt install kali-linux-everything
+
+6. Hide Launch Message
+    > touch ~/.hushlogin
 
 ## Specifications & Other Notes
 
