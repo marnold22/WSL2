@@ -75,3 +75,8 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
 
 7. Apply Changes
     > source ~/.zshrc
+
+## TOOLS
+
+1. gef for GDB (GNU Debugger)
+    > bash -c "$(curl -fsSL <http://gef.blah.cat/sh>)"
