@@ -80,3 +80,28 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
 
 1. gef for GDB (GNU Debugger)
     > bash -c "$(curl -fsSL <http://gef.blah.cat/sh>)"
+
+2. pwninit install
+    Download: musl binaries & pwninit zip and unzip them (in /opt/ directory)
+    > cd musl-1.2.3
+    > ./configure
+    > sudo make install
+    > cd ../pwninit-3.2.0
+    > cargo install pwninit
+    > export PATH="$HOME/.cargo/bin/pwninit:$PATH"
+    > cd ~
+    > nano .zshrc
+    Add the line `alias pwninit="~/.cargo/bin/pwninit"`
+
+3. Weiner's Attack (RSA)
+    > git clone <https://github.com/pablocelayes/rsa-wiener-attack.git>
+
+4. RsaCTFTool (python library)
+    > cd tools
+    > git clone <https://github.com/Ganapati/RsaCtfTool.git>
+    > apt install libgmp3-dev libmpc-dev
+    > cd RsaCtfTool
+    > pip3 install -r "requirements.txt"
+
+5. Exiftool
+    > sudo apt install exiftool
