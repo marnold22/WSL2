@@ -105,3 +105,15 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
 
 5. Exiftool
     > sudo apt install exiftool
+
+6. Steghide
+    > sudo apt install steghide
+
+7. stegcracker (py)
+    > pip3 install stegcracker
+    > export PATH="$PATH:/home/marnold/.local/bin"
+
+8. StegSeek
+    > cd /tools
+    > wget "https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb"
+    > sudo apt install ./stegseek_0.6-1.deb
