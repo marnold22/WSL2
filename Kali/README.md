@@ -121,3 +121,5 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
 9. gdb-peda
     > git clone https://github.com/longld/peda.git ~/peda
     > echo "source ./peda/peda.py" >> ~/.gdbinit
+    > nano .gdbinit
+        - remove ~/.gef.py
