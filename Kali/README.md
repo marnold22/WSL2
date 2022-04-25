@@ -117,3 +117,7 @@ Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostn
     > cd /tools
     > wget "https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb"
     > sudo apt install ./stegseek_0.6-1.deb
+
+9. gdb-peda
+    > git clone https://github.com/longld/peda.git ~/peda
+    > echo "source ./peda/peda.py" >> ~/.gdbinit
