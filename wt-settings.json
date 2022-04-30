@@ -228,14 +228,16 @@
                 "guid": "{GUID_HERE}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\marnold"
             },
             {
                 "colorScheme": "Abernathy",
                 "guid": "{GUID_HERE}",
                 "hidden": false,
                 "name": "kali-linux",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\kali-linux\\home\\marnold"
             }
         ]
     },
