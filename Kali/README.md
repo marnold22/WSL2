@@ -29,7 +29,7 @@ Need to add a set user id (stick bit) to the ping function
 
 ## Change the hostname
 
-Change the hostname from `marnold@DESKTOP-QHEH3D4` to `UBUNTU` or whatever other hostname you want
+Change the hostname from `marnold@DESKTOP-QHEH3D4` to `KALI` or whatever other hostname you want
 
 > hostname
 > sudo nano /etc/wsl.conf
@@ -40,7 +40,7 @@ Change the hostname from `marnold@DESKTOP-QHEH3D4` to `UBUNTU` or whatever other
     generateHosts = false
     ```
 
-Replace all instances of `DESKTOP-QHEH3D4` with `UBUNTU` or whatever other hostname you want in the /etc/hosts file
+Replace all instances of `DESKTOP-QHEH3D4` with `KALI` or whatever other hostname you want in the /etc/hosts file
 
 > sudo nano /etc/hosts
 
