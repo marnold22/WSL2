@@ -76,6 +76,12 @@ Replace all instances of `DESKTOP-QHEH3D4` with `KALI` or whatever other hostnam
 7. Apply Changes
     > source ~/.zshrc
 
+8. Pip & Python3
+    > apt install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+    > python3 -m pip install --upgrade pip
+    > python3 -m pip install --upgrade pwntools
+    > export PATH="$PATH:/home/marnold/.local/bin"
+
 ## TOOLS
 
 1. gef for GDB (GNU Debugger)
