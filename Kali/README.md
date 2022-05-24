@@ -129,3 +129,8 @@ Replace all instances of `DESKTOP-QHEH3D4` with `KALI` or whatever other hostnam
     > echo "source ./peda/peda.py" >> ~/.gdbinit
     > nano .gdbinit
         - remove ~/.gef.py
+
+10. sec-tools
+    *This tool collection includes stegsolve and various other tools*
+    > cd /tools
+    > git clone <https://github.com/eugenekolo/sec-tools.git>*
