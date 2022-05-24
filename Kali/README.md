@@ -134,3 +134,6 @@ Replace all instances of `DESKTOP-QHEH3D4` with `KALI` or whatever other hostnam
     *This tool collection includes stegsolve and various other tools*
     > cd /tools
     > git clone <https://github.com/eugenekolo/sec-tools.git>*
+
+11. ImageMagik (need the convert tool)
+    > sudo apt install graphicsmagick-imagemagick-compat
