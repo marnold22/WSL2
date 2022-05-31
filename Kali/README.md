@@ -137,3 +137,9 @@ Replace all instances of `DESKTOP-QHEH3D4` with `KALI` or whatever other hostnam
 
 11. ImageMagik (need the convert tool)
     > sudo apt install graphicsmagick-imagemagick-compat
+
+12. Cutter (Decompiler)
+    > cd /tools
+    > wget "https://github.com/rizinorg/cutter/releases/download/v2.0.5/Cutter-v2.0.5-x64.Linux.AppImage"
+    > chmod +x Cutter*.AppImage
+    > ./Cutter*.AppImage (TO RUN PROGRAM)
