@@ -21,6 +21,35 @@
 6. Hide Launch Message
     > touch ~/.hushlogin
 
+## Kali Metapackages (TOOLS)
+
+1. Step 1 (base/core install)
+    > sudo apt install kali-linux-core
+
+2. Step 2 (optional packages)
+    > sudo apt install kali-tools-gpu
+        Tools which benefit from having access to GPU hardware
+    > sudo apt install kali-tools-hardware
+        Hardware hacking tools
+    > sudo apt install kali-tools-crypto-stego
+        Tools based around Cryptography & Steganography
+    > sudo apt install kali-tools-fuzzing
+        For fuzzing protocols
+    > sudo apt install kali-tools-802-11
+        802.11 (Commonly known as “Wi-Fi”)
+    > sudo apt install kali-tools-bluetooth
+        For targeting Bluetooth devices
+    > sudo apt install kali-tools-rfid
+        Radio-Frequency IDentification tools
+    > sudo apt install kali-tools-sdr
+        Software-Defined Radio tools
+    > sudo apt install kali-tools-voip
+        Voice over IP tools
+    > sudo apt install kali-tools-windows-resources
+        Any resources which can be executed on a Windows hosts
+    > sudo apt install kali-linux-labs
+        Environments for learning and practising on
+
 ## Specifications & Other Notes
 
 Need to add a set user id (stick bit) to the ping function
