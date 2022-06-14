@@ -49,6 +49,32 @@
         Any resources which can be executed on a Windows hosts
     > sudo apt install kali-linux-labs
         Environments for learning and practising on
+    > sudo apt install kali-tools-information-gathering
+        Used for Open Source Intelligence (OSINT) & information gathering
+    > sudo apt install kali-tools-vulnerability
+        Vulnerability assessments tools
+    > sudo apt install kali-tools-web
+        Designed doing web applications attacks
+    > sudo apt install kali-tools-database
+        Based around any database attacks
+    > sudo apt install kali-tools-passwords
+        Helpful for password cracking attacks – Online & offline
+    > sudo apt install kali-tools-wireless
+        All tools based around Wireless protocols – 802.11, Bluetooth, RFID & SDR
+    > sudo apt install kali-tools-reverse-engineering
+        For reverse engineering binaries
+    > sudo apt install kali-tools-exploitation
+        Commonly used for doing exploitation
+    > sudo apt install kali-tools-social-engineering
+        Aimed for doing social engineering techniques
+    > sudo apt install kali-tools-sniffing-spoofing
+        Any tools meant for sniffing & spoofing
+    > sudo apt install kali-tools-post-exploitation
+        Techniques for post exploitation stage
+    > sudo apt install kali-tools-forensics
+        Forensic tools – Live & Offline
+    > sudo apt install kali-tools-reporting
+        Reporting tools
 
 ## Specifications & Other Notes
 
