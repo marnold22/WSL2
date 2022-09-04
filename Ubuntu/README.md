@@ -27,6 +27,47 @@
 
 1. APACHE
     > sudo apt install apache2
+    1. VirtualHosts File Config
+       1. > sudo touch localhost.conf
+       2. > sudo nano localhost.conf
+                ```text
+                    <VirtualHost *:80>
+                        ServerName localhost
+                        DocumentRoot /var/www/html/
+                    </VirtualHost>
+
+                    <VirtualHost *:80>
+                        ServerName info.localhost
+                        DocumentRoot /var/www/info.local/
+                    </VirtualHost>
+
+                    <VirtualHost *:80>
+                        ServerName vingroup.localhost
+                        DocumentRoot /var/www/vingroup.local/vingroupcpa/
+                    </VirtualHost>
+
+                    <VirtualHost *:80>
+                        ServerName vaphotos.localhost
+                        DocumentRoot /var/www/vaphotos.local/vaphotos/
+                    </VirtualHost>
+                ```
+    2. Add to /etc/hosts file
+
+            ```text
+                127.0.0.1       localhost
+                127.0.0.1       info.localhost
+                127.0.0.1       vingroup.localhost
+                127.0.0.1       vaphotos.localhost
+                127.0.0.1       [OTHER_SITES_HERE].localhost
+            ```
+
+    3. Add /etc/wsl.conf
+
+            ```text
+                # Network host settings that enable the DNS server used by WSL 2. This example changes the hostname, sets generateHosts to false, preventing WSL from the default behavior of auto-generating /etc/hosts, and sets generateResolvConf to false, preventing WSL from auto-generating /etc/resolv.conf, so that you can create your own (ie. nameserver 1.1.1.1).
+                [network]
+                generateHosts = false
+            ```
 
 2. PHP
     > sudo apt install php libapache2-mod-php
